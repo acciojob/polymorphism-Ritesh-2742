@@ -3,10 +3,10 @@ package com.driver;
 public class Main {
     public static void main(String[] args) {
         Product p= new Product();
-        int ans=p.product(10,20);
-        int ans1=p.product(10,20,30);
-        double ans2=p.product(10.1,20.3);
-        System.out.printf(ans+" "ans1+" "+ans2);
+        p.product(10,20);
+        p.product(10,20,30);
+        p.product(10.1,20.3);
+
 
 
     }
